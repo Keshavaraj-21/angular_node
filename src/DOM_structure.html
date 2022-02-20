@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM Learning</title>
+    <style>
+        .green {
+            background-color: rgb(60, 156, 60);
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Friday">Thank god today is Friday</div>
+    <div id="div01" class='green'>
+        <h1>Hello World!</h1>
+    </div>
+    <h1>My title</h1>
+    <p>The world is beauty</p>
+    <ul>
+        <li class="green">list1</li>
+        <li>list2</li>
+        <li class="yellow">list</li>
+        <li>list4</li>
+    </ul>
+    <p>
+        <img alt="dom model" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg">
+    </p>
+    <p>
+        <input title="enter your name" type="text" id="txtName" value="Keshavaraj" onchange="myfun()"/>
+    </p>
+    <script>
+        const arr=[1,2,3,4,5,6];
+        console.log(arr);
+        const strArr=JSON.stringify(arr);
+        console.log(strArr);
+        const myObj={
+            firstname:'myfirstname',
+            lastlast:'mylastname'
+        };
+        const strjson=JSON.stringify(myObj);
+        console.log(strjson);
+        var javastudentlist={"studentlist":[
+            {"name":"Ajith","age":22},
+            {"name":"Vijay","age":21},
+            {"name":"Surya","age":23},
+
+        ]
+                               
+        };
+        console.log(javastudentlist);
+        const arr1=JSON.parse(strjson);
+        console.log(arr1);
+
+
+
+        function myfun()
+        {
+            document.getElementById("div01").innerText=document.getElementById("txtName").value;
+            document.getElementById("div01").style.color='purple';
+            var output=document.getElementById('div01');
+            output.style.backgroundColor="red";
+            output.style.border="3px solid orange";
+        }
+
+        // var listItems=document.getElementsByClassName("green");
+        // for(var i=0;i<listItems.length;i++)
+        // {
+        //     listItems[i].innerHTML="green color text updated";
+        // }
+        // console.dir(document.querySelector('li'));
+        // console.dir(document.querySelectorAll('li'));
+        // console.dir(document.querySelectorAll('ul > li'));
+        // console.dir(document.querySelectorAll('div'));
+        // console.dir(document.querySelectorAll('#div01'));
+        // console.dir(document.querySelectorAll('.green'));
+        // console.dir(document.querySelectorAll('div'));
+        // document.getElementById("div01").style.color='purple';
+        // console.dir(document.getElementsByClassName('green'));
+        
+
+        
+        // document.getElementById("div01").innerHTML = "Hello Feb";
+        // var v_name = document.getElementById("txtName");
+        // console.log(v_name.value);
+        // var listItems = document.getElementsByTagName('li')
+        // for (var i = 0; i < listItems.length; i++) {
+        //     listItems[i].innerHTML = "item " + (i + 1);
+        // }
+        // listItems[2].innerHTML = "updated text";
+        // var imglist = document.getElementsByTagName('img');
+        // imglist[0].src = "../images/download.jpg";
+        // console.dir(document);
+        // console.log(document.URL);
+        // console.dir(document.children[0]);
+        // console.dir(document.children[0].children[1]);
+        // console.dir(document.children[0].children[1].childNodes[]);
+
+    </script>
+
+</body>
+
+</html>
