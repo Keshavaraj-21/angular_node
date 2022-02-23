@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #instagram{
+            color: red;
+        }
+        #facebook{
+            color: blue;
+        }
+        a{
+            color: red;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        /* a[href="https://www.instagram.com/"]{
+            color: red;
+        }
+        a[href="https://www.facebook.com/"]{
+            color: chartreuse; */
+        /* } */
+        /* input[name="txtame"]{
+            color:red;
+        } */
+        a[href*="instagram.com"]{
+            color: red;
+        }
+        a[href*="facebook.com"]{
+            color: blue;
+        }
+       
+    </style>
+    <title>Link</title>
+</head>
+<body>
+    Visit 
+    <p><a href="https://www.instagram.com">Instagram</a></p>
+    or
+    <p><a href="https://www.facebook.com">Facebook</a></p>
+    or
+    <p><a href="https://www.facebook.com/">Meta</a></p>
+
+</body>
+</html>

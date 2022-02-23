@@ -6,7 +6,7 @@ h3{
     background-color: blue;
     color: white;
 }
-
+/* Grouping of multiple elements */
 h1,h3{
     color: white;
 }
@@ -20,9 +20,9 @@ ul li{
 ul>li{
     color: blue;
 }
-/*li{
+li{
     color: green;
-}*/
+}
 .item 
 {
     color: pink;
