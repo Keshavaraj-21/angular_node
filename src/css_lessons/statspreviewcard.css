@@ -37,7 +37,7 @@ font-size: 15px;
 
 .img-component::after{
     position: absolute;
-    content:'';
+    content: '';
     height: 100%;
     width: 100%;
     left: 0;
@@ -152,6 +152,14 @@ font-size: 15px;
 
 }
 
+/* footer{
+    min-height: 180vh;
+} */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
