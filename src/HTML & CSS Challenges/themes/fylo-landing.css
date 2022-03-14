@@ -3,53 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.header-section {
-  height: 90vh;
-  margin-bottom: 5rem;
-}
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.nav-items > a {
-  text-decoration: none;
-  color: hsl(238, 22%, 44%);
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 10px;
-}
-.hero-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.hero-img-container > img {
-  width: 550px;
-}
-.hero-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.hero-text-container > h1 {
-  font-size: 40px;
-  font-weight: 800;
-  color: hsl(243, 87%, 12%);
-  margin-bottom: 20px;
-}
-.hero-text-container > p {
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: hsl(238, 22%, 44%);
-  margin-bottom: 20px;
-}
+
 .clt-container {
   display: flex;
   justify-content: space-between;
@@ -73,76 +31,7 @@ body {
   font-weight: 500;
   cursor: pointer;
 }
-.features-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: hsl(240, 75%, 98%);
-  height: 90vh;
-}
-.features-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.features-text-container > h1 {
-  font-size: 40px;
-  font-weight: 800;
-  color: hsl(243, 87%, 12%);
-  margin-bottom: 20px;
-}
-.features-text-container > p {
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: hsl(238, 22%, 44%);
-  margin-bottom: 20px;
-}
-.features-text-container > button {
-  outline-width: 0;
-  border: none;
-  background: none;
-  color: hsl(170, 45%, 43%);
-  border-bottom: 2px solid hsl(170, 45%, 43%);
-  font-size: 16px;
-  font-weight: 500;
-  padding-bottom: 5px;
-  cursor: pointer;
-}
-.features-img-container > img {
-  width: 550px;
-}
-.personal-info-container > img {
-  width: 40px;
-  border-radius: 24px;
-  margin-right: 10px;
-}
-.testimonial-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 20px;
-  background-color: #fff;
-  padding: 30px 20px;
-  box-shadow: 5px 5px 8px #888888;
-}
-.testimonial-container > p {
-  margin-bottom: 15px;
-  color: hsl(243, 87%, 12%);
-}
-.personal-info-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.personal-info .name {
-  font-weight: 800;
-  color: hsl(243, 87%, 12%);
-}
-.personal-info .work {
-  color: hsl(243, 87%, 12%);
-}
+
 .call-to-action-section {
   padding-top: 2rem;
   display: flex;
@@ -192,6 +81,17 @@ body {
   font-weight: 500;
   cursor: pointer;
 }
+
+.email-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.email-container > img {
+  margin-right: 10px;
+}
+
 .footer-section {
   background-color: hsl(243, 87%, 12%);
   height: 40vh;
@@ -208,6 +108,124 @@ body {
   justify-content: space-around;
   align-items: flex-start;
 }
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(240, 75%, 98%);
+  height: 90vh;
+}
+.features-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.features-text-container > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 20px;
+}
+.features-text-container > p {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: hsl(238, 22%, 44%);
+  margin-bottom: 20px;
+}
+.features-text-container > button {
+  outline-width: 0;
+  border: none;
+  background: none;
+  color: hsl(170, 45%, 43%);
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.features-img-container > img {
+  width: 550px;
+}
+
+.header-section {
+  height: 90vh;
+  margin-bottom: 5rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-img-container > img {
+  width: 550px;
+}
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hero-text-container > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 20px;
+}
+.hero-text-container > p {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: hsl(238, 22%, 44%);
+  margin-bottom: 20px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.menu-container > a {
+  text-decoration: none;
+  color: hsl(240, 75%, 98%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-items > a {
+  text-decoration: none;
+  color: hsl(238, 22%, 44%);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.personal-info-container > img {
+  width: 40px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+.personal-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.personal-info .name {
+  font-weight: 800;
+  color: hsl(243, 87%, 12%);
+}
+.personal-info .work {
+  color: hsl(243, 87%, 12%);
+}
+
 .personal-info-container {
   display: flex;
   flex-direction: column;
@@ -224,26 +242,23 @@ body {
 .phone-container > img {
   margin-right: 10px;
 }
-.email-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px;
+
+.social-container > img {
+  margin-left: 15px;
+  cursor: pointer;
 }
-.email-container > img {
-  margin-right: 10px;
-}
-.menu-container {
+
+.testimonial-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: 5px 5px 8px #888888;
 }
-.menu-container > a {
-  text-decoration: none;
-  color: hsl(240, 75%, 98%);
-}
-.social-container > img {
-  margin-left: 15px;
-  cursor: pointer;
+.testimonial-container > p {
+  margin-bottom: 15px;
+  color: hsl(243, 87%, 12%);
 }

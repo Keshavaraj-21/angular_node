@@ -23,25 +23,9 @@ body {
   height: 100vh;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 90%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin: 0 2rem;
-}
-
 .header img {
   width: 170px;
   padding-bottom: 20px;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  gap: 40px;
 }
 
 .hero-text h1 {
@@ -73,6 +57,12 @@ body {
 .hero-text a:hover {
   background-color: hsl(300, 69%, 71%);
   color: white;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .social {
@@ -113,6 +103,16 @@ body {
 
 .social a i:hover::after {
   border-color: hsl(300, 69%, 71%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 2rem;
 }
 
 @media only screen and (max-width: 1440px) {
