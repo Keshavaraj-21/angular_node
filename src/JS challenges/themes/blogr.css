@@ -19,7 +19,7 @@ header {
   min-height: 90vh;
   min-width: 430px;
   background-color: #ce4049;
-  background-image: url(../assets/img/bg-pattern-intro.svg);
+  background-image: url(../images/bg-pattern-intro.svg);
   background-position: -50vh -30vh;
   background-size: 195vh;
   background-repeat: repeat;
