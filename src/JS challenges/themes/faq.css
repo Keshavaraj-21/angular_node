@@ -1,42 +1,41 @@
 * {
   border: none;
-  margin: 0;
-  padding: 0;
-  outline: none;
   box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
 }
 
 html {
   font-size: 12px;
   min-width: 320px;
 }
-
 body {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px;
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   font-family: "Kumbh Sans", sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
+  padding: 10px;
 }
 
 footer {
-  margin-top: 10px;
   font-size: 1.2rem;
   font-weight: 400;
+  margin-top: 10px;
 }
 
 footer small {
   color: thistle;
   display: block;
-  text-align: center;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 footer a {
@@ -46,23 +45,23 @@ footer a {
 
 /* top image in mobiles */
 .top-image {
-  width: 266px;
-  height: 196px;
   background-image: url("../images/illustration-woman-online-mobile.svg"),
     url("../images/bg-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-position: center, bottom center;
+  height: 196px;
   position: absolute;
+  width: 266px;
 }
 
 /* main container */
 .container {
-  margin: calc(50px + (196px / 2)) auto 0 auto;
-  width: 95%;
   background-color: white;
   border-radius: 2rem;
-  padding-top: 8rem;
   box-shadow: 0 10px 15px -5px hsl(237, 12%, 33%);
+  margin: calc(50px + (196px / 2)) auto 0 auto;
+  padding-top: 8rem;
+  width: 95%;
 }
 
 /* content */
@@ -83,16 +82,16 @@ footer a {
 }
 
 .list__word {
-  margin: 1rem 0;
-  padding: 1rem 0;
+  align-content: center;
   border-bottom: solid thin hsl(240, 5%, 91%);
+  color: hsl(237, 12%, 33%);
   cursor: pointer;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: nowrap;
-  color: hsl(237, 12%, 33%);
   font-size: 1.1rem;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .list__word * {
@@ -100,9 +99,9 @@ footer a {
 }
 
 .list__word--selected {
+  border: none;
   color: hsl(238, 29%, 16%);
   font-weight: 700;
-  border: none;
 }
 
 .list__word:hover {
@@ -113,8 +112,8 @@ footer a {
   border-bottom: solid thin hsl(240, 5%, 91%);
   color: hsl(240, 6%, 50%);
   display: none;
-  padding-bottom: 1rem;
   font-size: 1.1rem;
+  padding-bottom: 1rem;
 }
 
 .list__description--selected {
@@ -123,16 +122,16 @@ footer a {
 
 /* arrow icon */
 .icon {
-  display: block;
-  width: 1rem;
-  height: 1rem;
-  min-width: 1rem;
-  min-width: 1rem;
   background-image: url("../images/icon-arrow-down.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: block;
+  height: 1rem;
+  min-width: 1rem;
+  min-width: 1rem;
   margin-left: 1rem;
+  width: 1rem;
 }
 
 .flip-vertically {
@@ -143,38 +142,38 @@ footer a {
 @media (min-width: 768px) {
   /* container */
   .container {
-    width: 65%;
-    margin: auto;
-    padding: 0;
     background-image: url("../images/illustration-woman-online-desktop.svg"),
       url("../images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-position: calc(-472px / 7) center,
       calc(-966px / 1.735) calc(-945px / 3);
-    overflow: hidden;
+    margin: auto;
     max-width: 900px;
+    overflow: hidden;
+    padding: 0;
+    width: 65%;
   }
 
   /* content */
   .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
     max-width: 400px;
     min-width: 400px;
     margin: 0 0 0 auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    height: 100%;
     padding: 6rem 5rem;
   }
 
   .content__title {
-    text-align: left;
     font-size: 2.5rem;
+    text-align: left;
   }
 
   /* left side image */
   .top-image {
-    width: 191px;
-    height: 184px;
     background-image: url("../images/illustration-box-desktop.svg");
     background-position: center;
+    height: 184px;
+    width: 191px;
   }
 }

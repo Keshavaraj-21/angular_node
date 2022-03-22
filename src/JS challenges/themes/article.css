@@ -1,32 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
 
 :root {
-  --very-dark-grayish-blue: hsl(217, 19%, 35%);
   --desaturated-dark-blue: hsl(214, 17%, 51%);
   --grayish-blue: hsl(212, 23%, 69%);
   --light-grayish-blue: hsl(210, 46%, 95%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
   background-color: lavender;
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .content-card {
   background-color: #ffffff;
-  width: 90%;
-  margin: auto;
-  margin-top: 4em;
-  margin-bottom: 4em;
   border-radius: 15px;
+  margin: auto;
+  margin-bottom: 4em;
+  margin-top: 4em;
+  width: 90%;
 }
 
 .content-card img {
   width: 100%;
-  border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .content-card .content-text {
@@ -36,27 +36,27 @@ body {
 }
 
 .content-card .content-text h1 {
+  color: var(--very-dark-grayish-blue);
   display: block;
   font-size: 1.4rem;
   font-weight: 600;
-  color: var(--very-dark-grayish-blue);
 }
 
 .content-card .content-text p {
+  color: var(--desaturated-dark-blue);
   display: block;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--desaturated-dark-blue);
 }
 
 .content-card .content-footer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: row;
   padding-top: 1em;
   padding-bottom: 1em;
+  width: 100%;
 }
 
 .content-card .content-footer.on {
@@ -64,9 +64,9 @@ body {
 }
 
 .content-card .content-footer .content-profile {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding-left: 1em;
 }
 
@@ -75,14 +75,14 @@ body {
 }
 
 .content-card .content-footer .content-profile .content-info {
-  padding: 0.5em;
   font-family: "Manrope", sans-serif;
   font-size: 0.8rem;
+  padding: 0.5em;
 }
 
 .content-card .content-footer .content-profile .content-info p {
-  margin: 0;
   color: var(--very-dark-grayish-blue);
+  margin: 0;
 }
 
 .content-card .content-footer .content-profile .content-info span {
@@ -94,20 +94,20 @@ body {
 }
 
 .content-card .content-footer .content-socials {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   color: #fff;
+  display: flex;
+  flex-direction: row;
   gap: 0.5em;
   margin-left: 1em;
   width: 50%;
 }
 
 .content-card .content-footer .content-socials span {
-  font-family: "Manrope", sans-serif;
   color: var(--grayish-blue);
-  min-width: 50px;
+  font-family: "Manrope", sans-serif;
   font-size: 0.7rem;
+  min-width: 50px;
 }
 
 .content-card .content-footer .content-socials .icon {
@@ -116,18 +116,18 @@ body {
 }
 
 .content-card .content-footer .content-btn {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: flex-end;
   padding-right: 1.5em;
   width: 65%;
 }
 
 .content-card .content-footer .content-btn .btn {
-  display: block;
-  padding: 0.5em;
   background-color: var(--light-grayish-blue);
   border-radius: 150px;
+  display: block;
+  padding: 0.5em;
 }
 
 .content-card .content-footer.on .content-btn .btn {
