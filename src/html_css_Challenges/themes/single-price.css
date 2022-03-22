@@ -1,127 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Karla',
-        sans-serif;
-    font-size: 16px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: hsl(204, 43%, 93%);
+  align-items: center;
+  background: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  min-height: 100vh;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .wrapper {
-    display: grid;
-    border-radius: 7px;
-    overflow: hidden;
-    background-color: #FFF;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "a a""b c";
-    margin: 2rem 1rem;
+  background-color: #fff;
+  border-radius: 7px;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "a a" "b c";
+  margin: 2rem 1rem;
 }
 
 .box {
-    padding: 40px;
+  padding: 40px;
 }
 
 .join {
-    grid-area: a;
+  grid-area: a;
 }
 
 .sub {
-    grid-area: b;
-    background-color: hsl(179, 62%, 43%);
+  background-color: hsl(179, 62%, 43%);
+  grid-area: b;
 }
 
 .why {
-    grid-area: c;
-    background-color: hsl(179, 62%, 50%);
+  background-color: hsl(179, 62%, 50%);
+  grid-area: c;
 }
 
 h1 {
-    color: hsl(179, 62%, 43%);
-    font-size: 26px;
-    padding-bottom: 20px;
+  color: hsl(179, 62%, 43%);
+  font-size: 26px;
+  padding-bottom: 20px;
 }
 
 h3 {
-    color: hsl(71, 73%, 54%);
-    padding-bottom: 12px;
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 12px;
 }
 
 .join p {
-    color: hsl(218, 22%, 67%);
-    line-height: 1.4;
+  color: hsl(218, 22%, 67%);
+  line-height: 1.4;
 }
 
 h2 {
-    color: #FFF;
-    font-size: 20px;
-    padding-bottom: 15px;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
 h5 {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px;
+  align-items: center;
+  display: flex;
+  padding-bottom: 10px;
 }
 
 h5 span.price {
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 700;
-    padding-right: 10px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  padding-right: 10px;
 }
 
 h5 span {
-    color: hsl(204, 43%, 93%);
-    font-weight: 400;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
 }
 
 .sub p {
-    color: #FFF;
+  color: #fff;
 }
 
 .sub a {
-    display: block;
-    text-align: center;
-    background-color: hsl(71, 73%, 54%);
-    text-decoration: none;
-    color: #FFF;
-    font-weight: 800;
-    font-size: 13px;
-    padding: 12px 0;
-    border-radius: 4px;
-    margin-top: 30px;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 12px 0;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .why ul {
-    list-style: none;
+  list-style: none;
 }
 
 .why li {
-    color: #FFF;
-    padding-bottom: 4px;
-    font-size: 14px;
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 4px;
 }
 
 @media only screen and (max-width: 425px) {
-    .wrapper {
-        grid-template-columns: 100%;
-        grid-template-areas: "a""b""c";
-    }
+  .wrapper {
+    grid-template-columns: 100%;
+    grid-template-areas: "a" "b" "c";
+  }
 
-    .box {
-        padding: 30px;
-    }
+  .box {
+    padding: 30px;
+  }
 }

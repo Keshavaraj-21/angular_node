@@ -1,56 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Outfit', sans-serif;
-    background-color:hsl(212, 45%, 89%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
+body {
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
 }
-.container{
-    max-width: 360px;
-    margin: 0 auto;
+.container {
+  max-width: 360px;
+  margin: 0 auto;
 }
-.card{
-    background-color: hsl(0, 0%, 100%);
-    padding: 18px;
-    border-radius: 17px;
-    text-align: center;
-    margin: 0 1em;
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 17px;
+  margin: 0 1em;
+  padding: 18px;
+  text-align: center;
 }
-.card img{
-    width: 100%;
-    border-radius: 12px;
+.card img {
+  width: 100%;
+  border-radius: 12px;
 }
-.text{
-    padding: 22px 10px;
+.text {
+  padding: 22px 10px;
 }
-.text h2{
-    color:hsl(218, 44%, 22%);
-    padding-bottom: 15px;
+.text h2 {
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 15px;
 }
-.text p{
-    color: hsl(220, 15%, 55%);
+.text p {
+  color: hsl(220, 15%, 55%);
 }
 
 .link {
-  position: fixed;
   background-color: #d12322;
-  padding: 23px 40px;
-  right: -90px;
   border-radius: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  transform: rotate(-90deg);
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
+  position: fixed;
+  padding: 23px 40px;
+  right: -90px;
+  top: 50%;
   text-decoration: none;
   text-transform: capitalize;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
   transition: all 0.1s ease-in-out;
 }
 
@@ -59,6 +59,6 @@ body{
 }
 
 .link:hover {
-  text-decoration: underline;
   background-color: black;
+  text-decoration: underline;
 }

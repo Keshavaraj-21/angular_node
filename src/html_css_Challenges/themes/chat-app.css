@@ -4,25 +4,25 @@
 }
 
 body {
+  align-items: center;
   background-color: hsl(270, 20%, 96%);
+  display: flex;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  justify-content: center;
 }
 
 .availability {
-  font-size: 8px;
   color: lightgray;
+  font-size: 8px;
 }
 
 .description-head {
   color: hsl(271, 36%, 24%);
-  margin-bottom: 20px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .description-head,
@@ -33,21 +33,21 @@ body {
 .description-text {
   color: hsl(270, 7%, 64%);
   font-size: 14px;
+  font-weight: normal;
   width: 70%;
   margin: auto;
-  font-weight: normal;
 }
 
 .greybody {
-  background-color: hsl(0, 14%, 91%);
-  width: 50%;
-  height: 400px;
   align-self: flex-start;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+  background-color: hsl(0, 14%, 91%);
   border-radius: 1000px 0px 0px 0px;
+  bottom: 0;
+  height: 400px;
+  position: fixed;
+  right: 0;
+  width: 50%;
+  z-index: -1;
 }
 
 .name {
@@ -55,24 +55,25 @@ body {
 }
 
 .payment {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 140px;
-  margin-left: 10px;
-  margin-top: 7px;
-  color: white;
   background-image: linear-gradient(
     to left,
     hsl(264, 100%, 61%),
     hsl(293, 100%, 63%)
   );
-  padding: 7px;
   border-radius: 10px 10px 10px 5px;
-}
-.payment-left {
+  color: white;
   display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 7px;
+  padding: 7px;
+  width: 140px;
+}
+
+.payment-left {
   align-items: center;
+  display: flex;
   width: 80%;
 }
 
@@ -91,50 +92,50 @@ body {
 }
 
 .phone {
+  background-color: white;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  width: 210px;
-  max-height: 100%;
   height: 450px;
-  border-radius: 20px;
-  padding: 10px;
-  background-color: white;
   margin-bottom: 40px;
+  max-height: 100%;
+  padding: 10px;
+  width: 210px;
 }
 
 .phone-body {
+  background-color: hsl(270, 20%, 96%);
+  border-radius: 0px 0px 20px 20px;
+  flex-grow: 1;
   overflow: auto;
   width: 100%;
-  flex-grow: 1;
-  border-radius: 0px 0px 20px 20px;
-  background-color: hsl(270, 20%, 96%);
 }
 
 .phone-body .message {
-  font-size: 8px;
   display: inline-block;
+  font-size: 8px;
   margin-top: 7px;
 }
 
 .phone-body .left p {
   background-color: hsl(0, 14%, 91%);
-  color: hsl(276, 55%, 52%);
   border-radius: 10px 10px 10px 5px;
-  padding: 7px;
+  color: hsl(276, 55%, 52%);
   margin-left: 10px;
+  padding: 7px;
 }
 
 .phone-body .right {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .phone-body .right p {
   background-color: white;
   border-radius: 10px 10px 5px 10px;
-  padding: 7px;
   margin-right: 10px;
+  padding: 7px;
 }
 
 .phone-header {
@@ -144,26 +145,25 @@ body {
     hsl(293, 100%, 63%)
   );
   border-radius: 20px 20px 8px 8px;
-  width: 100%;
   height: 60px;
+  width: 100%;
 }
 
 .phone-header-camera {
   background-color: white;
-  height: 20px;
-  width: 130px;
-  margin: auto;
   border-radius: 0px 0px 30px 30px;
+  height: 20px;
+  margin: auto;
+  width: 130px;
 }
 
 .phone-header-description {
-  width: 100%;
-  height: 40px;
-  display: flex;
   align-items: center;
   color: white;
   display: flex;
+  height: 40px;
   justify-content: space-between;
+  width: 100%;
 }
 
 .phone-header-description .uil-angle-left {
@@ -171,56 +171,56 @@ body {
 }
 
 .phone-header-description img {
-  width: 25px;
   border: 1px solid white;
   border-radius: 50px;
+  width: 25px;
 }
 
 .phone-header-left {
   display: flex;
-  width: 65%;
   justify-content: space-around;
+  width: 65%;
 }
 
 .pictures {
-  margin-top: 7px;
-  width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 7px;
+  width: 100%;
 }
 
 .pictures img {
-  width: 38px;
-  margin-right: 10px;
   border-radius: 10px;
+  margin-right: 10px;
+  width: 38px;
 }
 
 .purpleBody {
+  align-self: flex-start;
   background-image: linear-gradient(
     to top left,
     hsl(264, 100%, 61%),
     hsl(293, 100%, 63%)
   );
-  width: 50%;
-  height: 400px;
-  align-self: flex-start;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
   border-radius: 0 0 1000px 0px;
+  height: 400px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%;
+  z-index: -1;
 }
 
 .type-message {
-  margin: auto;
-  margin-top: 20px;
+  align-items: center;
   background-color: white;
-  width: 90%;
-  height: 40px;
   border-radius: 50px;
   display: flex;
-  align-items: center;
+  height: 40px;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 90%;
 }
 
 .type-message p {
@@ -230,15 +230,15 @@ body {
 }
 
 .type-message .send {
-  width: 30px;
-  height: 30px;
-  background-color: hsl(271, 36%, 24%);
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-right: 5px;
+  background-color: hsl(271, 36%, 24%);
   border-radius: 100px;
+  display: flex;
+  font-size: 25px;
+  height: 30px;
+  justify-content: center;
+  margin-right: 5px;
+  width: 30px;
 }
 
 .type-message .send i {
