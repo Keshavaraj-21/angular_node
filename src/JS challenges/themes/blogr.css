@@ -4,7 +4,6 @@ li {
 }
 
 body {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,33 +11,25 @@ body {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  min-height: 90vh;
-  min-width: 430px;
   background-color: #ce4049;
   background-image: url(../images/bg-pattern-intro.svg);
   background-position: -50vh -30vh;
   background-size: 195vh;
   background-repeat: repeat;
   border-bottom-left-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 90vh;
+  min-width: 430px;
+  position: relative;
 }
 
 header ._gradient {
-  position: absolute;
-  width: 100%;
-  min-height: 90vh;
   background: #fe4c58;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fe4c58),
+  background: linear, left top, left bottom, from(#fe4c58),
     color-stop(37%, rgba(254, 76, 88, 0.868785)),
-    color-stop(80%, rgba(254, 76, 88, 0.753939))
-  );
+    color-stop(80%, rgba(254, 76, 88, 0.753939));
   background: linear-gradient(
     180deg,
     #fe4c58 0%,
@@ -47,6 +38,9 @@ header ._gradient {
   );
   border-bottom-left-radius: 100px;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe4c58",endColorstr="#fe4c58",GradientType=1);
+  min-height: 90vh;
+  position: absolute;
+  width: 100%;
 }
 
 header nav {

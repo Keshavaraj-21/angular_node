@@ -79,9 +79,9 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
   border: 0;
+  padding: 0;
+  margin: 0;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -142,14 +142,10 @@ a,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  border: none;
-  outline: none;
   background: none;
+  color: none;
   cursor: pointer;
+  outline: none;
   padding: 0;
+  text-decoration: none;
 }
