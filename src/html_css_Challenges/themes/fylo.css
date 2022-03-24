@@ -28,7 +28,7 @@ body {
 
 .chat {
   background-color: #fff;
-  border-radius: 10px 10px 0 10px;
+  border-radius: 10px 10x 0px 10px;
   color: hsl(229, 57%, 11%);
   font-weight: 700;
   font-size: 32px;
@@ -81,6 +81,7 @@ body {
 .left-item {
   display: flex;
   padding: 15px;
+  width: 70px;
 }
 
 .loading {
@@ -113,7 +114,8 @@ body {
 }
 
 .right-item {
-  margin: 10px 0;
+  margin: 20px 0;
+  width: 500px;
 }
 
 span {
@@ -142,13 +144,9 @@ span {
   top: 0;
   width: 2vmin;
 }
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(243, 100%, 93%);
+.rightt {
+  text-align: right;
+  margin-top: -15px;
 }
 
 @media screen and(max-width:799px) {
@@ -185,7 +183,7 @@ span {
 
   .right {
     position: relative;
-    width: 100%;
+    width: 100px;
     padding: 25px;
   }
 

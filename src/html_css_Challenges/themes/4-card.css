@@ -81,8 +81,8 @@ header p {
 
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 60px;
 }
 
