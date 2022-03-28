@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const people = [
+  { name: "John", cool: true, country: "Canada" },
+  { name: "Scott", cool: true, country: "USA" },
+  { name: "Jimmy", cool: false, country: "India" },
+];
+people.forEach((person, index) => {
+  console.table(index, person.name, person.cool, person.country);
+});
+function certify(name) {
+  console.count(`certifying doctor degree for ${name}`);
+  return `Dr. ${name}`;
+}
+    </script>
+</body>
+</html>
