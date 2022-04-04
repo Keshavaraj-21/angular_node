@@ -29,7 +29,12 @@ input {
   border: 2px solid rgb(24, 23, 23);
   border-radius: 0px;
   margin-top: 3rem;
-  background-color: rgb(111, 148, 136);
+  background-color: cadetblue;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px 12px black;
+  border: 0.5rem solid pink;
+  border-radius: 8px;
+  /* background-color: rgb(111, 148, 136); */
 }
 .tab-2 div {
   margin: 10px;
@@ -41,9 +46,18 @@ table {
   border-collapse: collapse;
   text-align: center;
   margin-top: 4rem;
+  background-color: cadetblue;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px 12px black;
+  border: 0.5rem solid rgb(230, 173, 208);
+  
 }
 th {
-  background-color: rgb(111, 148, 136);
+  background-color: cadetblue;
+}
+
+th {
+  /* background-color: rgb(111, 148, 136); */
 }
 
 table tr th,
